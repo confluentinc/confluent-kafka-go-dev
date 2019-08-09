@@ -25,4 +25,4 @@ import "github.com/confluentinc/confluent-kafka-go-dev/kafka/librdkafka"
 
 // LibrdkafkaVersion is a numeric representation of the librdkafka version
 // linked statically with this build.
-var LibrdkafkaVersion int = librdkafka.LibrdkafkaVersion
+var LibrdkafkaVersion = librdkafka.LibrdkafkaVersion
